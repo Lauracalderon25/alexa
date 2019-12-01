@@ -67,7 +67,7 @@ const extinto = [
     "El canguro, la razón principal del peligro es la caza, este marsupial sufre sobre todo los efectos del calentamiento global.",
     "El atun rojo, la razón principal del peligro, es la utilización del atún rojo en el sushi de calidad del mercado. En estos momentos, ya existe una prohibición temporal para dejar de consumirlo de manera tan abusiva; de lo contrario, podría desaparecer.",
     "El gorila de montaña, las razones principales del peligro,  es la caza y el deterioro que ha sufrido su hábitat.",
-    "Los pinguinos, la razón principal es que sufren las consecuencias del deshielo y el calentamiento global.",
+    "Los pingüino, la razón principal es que sufren las consecuencias del deshielo y el calentamiento global.",
     "El perro salvaje africano, las razones principales del peligro, son por la presión tanto por la destrucción de su hábitat, como su caza ilegal por sus pieles y su captura vivos como mascota, pues en algunas zonas de África se han llegado a tener domesticados para su uso como guardianes, igual que ha sucedido con las hienas o, incluso, guepardos.",
     ];
     const respuesta = [
@@ -83,7 +83,7 @@ const LaunchRequestHandler = {
         return Alexa.getRequestType(handlerInput.requestEnvelope) === 'LaunchRequest';
     },
     handle(handlerInput) {
-        const speakOutput = 'Hola, bienvenido al reto del dia. En esta aplicación, pódras ayudar al medio ambiente, a través de retos. Los retos son de niveles, está el nivel 1, 2 y 3. ¿Qué nivel deseas?. O también puedo brindarte noticias acerca del cambio climático y animales extintos o en peligro de extincion';
+        const speakOutput = 'Hola, bienvenido al reto del dia. En esta aplicación, pódras ayudar al medio ambiente, a través de retos. Los retos son de niveles, está el nivel 1, 2 y 3. ¿Qué nivel deseas?. O también puedo brindarte noticias acerca del cambio climático y animales extintos o en peligro de extinción';
         const speakReprompt = " ¿Aceptas o tienes miedo?";
         return handlerInput.responseBuilder
             .speak(speakOutput)
